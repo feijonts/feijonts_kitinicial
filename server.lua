@@ -6,12 +6,8 @@ local Proxy = module("vrp","lib/Proxy")
 vRP = Proxy.getInterface("vRP")
 vRPclient = Tunnel.getInterface("vRP")
 -----------------------------------------------------------------------------------------------------------------------------------------
--- CONNECTION
+-- WEBHOOK
 -----------------------------------------------------------------------------------------------------------------------------------------
-feijonts = {}
-Tunnel.bindInterface("feijonts_kitinicial",feijonts)
-feijontsC = Tunnel.getInterface("feijonts_kitinicial")
-
 function SendWebhookMessage(webhook,message)
 	if webhook ~= nil and webhook ~= "" then
 		PerformHttpRequest(webhook, function(err, text, headers) end, 'POST', json.encode({content = message}), { ['Content-Type'] = 'application/json' })
