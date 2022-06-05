@@ -1,6 +1,6 @@
 # feijonts_kitinicial
 
-> Sistema de kit inicial desenvolvido pela equipe Feijonts.
+> Sistema de kit inicial.
 
 > Venha conferir mais de nossos trabalhos, entre em nosso [Discord](https://discord.gg/RFQK6yW8cF).
 
