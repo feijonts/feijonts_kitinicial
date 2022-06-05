@@ -2,7 +2,7 @@
 
 > Sistema de kit inicial desenvolvido pela equipe Feijonts.
 
-> Venha conferir mais de nossos trabalhos, entre em nosso discord [Discord](https://discord.gg/RFQK6yW8cF).
+> Venha conferir mais de nossos trabalhos, entre em nosso [Discord](https://discord.gg/RFQK6yW8cF).
 
 ## Disponibilidades do Script
 
